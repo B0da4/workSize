@@ -211,3 +211,23 @@ width: 95%;
 .button:active {
   background-color: #7887a3;
 }
+.footer {
+  background: #e8e8e8;
+  color: #98A4BB;
+  height: 60px;
+  position: relative;
+ 
+}
+.footer_links {
+  margin: 10px;
+  position: absolute;
+  top: 20%;
+  transform: translate(0, -50);
+}
+
+a.footer_link {
+  padding: 10px;
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
