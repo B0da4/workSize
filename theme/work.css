@@ -1,0 +1,101 @@
+:root {
+    --corner-el: 10px;
+    --primary-color: #98a4bb;
+    --navbar-color: #1E1E1E;
+    --secondary-color: rgb(217, 217, 217, 0.4);
+    --secondary-text-color: rgb(139, 135, 135);
+    --primary--primary-color: rgb(152, 164, 187);
+  }
+  @font-face {
+	font-family: Sansation-bold;
+	src: url('sansation-bold.ttf');
+}
+.box-content {
+    font-size: 13px;
+    color: #000;
+    display: block;
+    max-width: 400px;
+    margin: auto;
+}
+.me {
+    height: 20px;
+    width: 165px;
+    left: 16px;
+    top: 65px;
+    border-radius: 0px;
+    font-family: Sansation-Italic;
+font-size: 16px;
+font-weight: 700;
+line-height: 18px;
+letter-spacing: 0em;
+
+    
+}
+.work {
+    height: 18px;
+    width: 83px;
+    left: 16px;
+    top: 13px;
+    border-radius: 0;
+font-size: 16px;
+font-weight: 700;
+line-height: 18px;
+letter-spacing: 0em;
+font-family: Sansation-bold;
+ }
+ .text {
+    height: 29px;
+    width: 348px;
+    left: 16px;
+    top: 97px;
+    border-radius: 0px;
+font-size: 14px;
+font-weight: 700;
+line-height: 16px;
+letter-spacing: 0em;
+font-family: Sansation-bold;
+font-size: 14px;
+font-weight: 400;
+line-height: 16px;
+letter-spacing: 0em;
+color: #1D283D;
+}
+* {
+    box-sizing: border-box;
+    font-family: Sansation-bold;
+}
+
+body{
+  font-family: "Lucida Grande", "verdana", "tahoma", "arial", sans-serif, "Lucida Sans";
+  background-color: #98A4BB;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+
+
+.input_default {
+    color: #637DAD;
+    background-color: #C2CDE3;
+    padding: 10px;
+    border: 1px solid;
+    height: 30px;
+width: 348px;
+left: 16px;
+top: 160px;
+border-radius: 8px;
+outline-width: 1px;
+outline-style: groove;
+outline-color: #5c7fc2;
+  }
+  .button {
+    height: 30px;
+    width: 348px;
+    left: 16px;
+    top: 261px;
+    border-radius: 8px;
+    background: #1D283D;
+color: #ffffff;
+}
